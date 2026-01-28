@@ -1,0 +1,70 @@
+# Data - Raw data is typically too large for git
+data_raw/
+*.csv
+*.parquet
+*.xlsx
+*.xls
+
+# Data - Processed data (optional, depends on size)
+# Uncomment if processed files are too large
+# data_processed/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Model files (large)
+*.pkl
+*.h5
+*.joblib
+*.pth
+models/
+
+# Experiments logs
+experiments/*
+!experiments/.gitkeep
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
